@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: url(pexels-eberhardgross-2098428.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-card {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  padding: 30px;
+  border-radius: 15px;
+  width: 320px;
+  text-align: center;
+  color: white;
+}
+
+.main-card:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+}
+
+.field-box {
+  width: 100%;
+  padding: 12px 45px 12px 20px;
+  margin: 10px 0;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.input-grp {
+  position: relative;
+  width: 100%;
+}
+
+.input-grp i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.field-box:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.row-links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.row-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  color: teal;
+  font-weight: bold;
+  cursor: pointer;
+  margin: top;
+  transition: 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.footer {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.footer a {
+  color: white;
+  font-weight: bold;
+}

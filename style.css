@@ -1,0 +1,118 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  color: black;
+}
+
+body {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  margin: 40px;
+  background-color: #eef2f3;
+}
+
+#title {
+  font-family: pacifico, cursive;
+  font-size: 40px;
+  background: linear-gradient(blue, purple);
+  border: 1px dashed grey;
+  display: inline-block;
+  padding: 10px 40px;
+}
+
+/*List*/
+
+ul {
+  list-style: none;
+  padding: 0%;
+}
+
+li {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 8px auto;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+/*table*/
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+/*form*/
+
+input,
+textarea {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  background-color: #ffffff;
+}
+
+button {
+  padding: 8px 15px;
+  cursor: pointer;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #4a90e2;
+  color: white;
+  border-color: #357abd;
+}
+
+/*Image*/
+
+video,
+img {
+  margin-bottom: 30px;
+}
+
+/*pfp*/
+
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /*adding soft shadow*/
+  transition: 0.3s; /*makes the hover effect smooth*/
+  width: 250px;
+  padding: 20px;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translate(-5px); /*makke the card slightly lift up */
+}
+
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #333;
+  color: #ffffff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+footer p {
+  margin: 0;
+}
